@@ -1,6 +1,7 @@
 # Facebook Messenger Bot
 This is a simple python template that uses Flask to build a webhook for Facebook's Messenger Bot API.
-I take this project as a reference to build a FAQ bot
+
+I take this project as a reference to build a FAQ bot2222
 
 Read more in my [tutorial that uses this repository](https://blog.hartleybrody.com/fb-messenger-bot/).
 
@@ -12,4 +13,4 @@ The #1 error that gets reported in issues is that facebook returns an error mess
 
 Our flask application intentionally returns a 403 Forbidden error if the token that facebook sends doesn't match the token you set using the heroku configuration variables.
 
-If you're getting this error, it likely means that you didn't set your heroku config values properly. Run `heroku config` from the command line within your application and verify that there's a key called `VERIFY_TOKEN` that has been set, and that it's set to the same value as what you've typed into the window on facebook.
+If you're getting this error, it likely means that you didn't set 2222your heroku config values properly. Run `heroku config` from the command line within your application and verify that there's a key called `VERIFY_TOKEN` that has been set, and that it's set to the same value as what you've typed into the window on facebook.
